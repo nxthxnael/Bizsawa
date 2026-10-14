@@ -1,0 +1,29 @@
+# Code owners are requested for review automatically.
+# The last matching pattern wins. Replace/extend handles as the team grows;
+# prefer a GitHub team (@org/team) once one exists.
+
+# Default: everything
+*                       @nxthxnael
+
+# Backend (Go API, workers)
+/backend/               @nxthxnael
+
+# Database migrations: always owner-reviewed
+/backend/migrations/    @nxthxnael
+
+# Mobile app
+/mobile/                @nxthxnael
+
+# Web
+/web/                   @nxthxnael
+
+# Load tests
+/loadtests/             @nxthxnael
+
+# CI/CD, deploy config and repo rules
+/.github/               @nxthxnael
+/backend/fly.toml       @nxthxnael
+/backend/Dockerfile*    @nxthxnael
+/mobile/eas.json        @nxthxnael
+/CONTRIBUTING.md        @nxthxnael
+/ARCHITECTURE.md        @nxthxnael
